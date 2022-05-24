@@ -12,25 +12,32 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Player:</h1>
+			<h1 id="js-player">Player: 1</h1>
 			<main>
 				<div class="row">
-					<div class="box" id="js-1">1</div>
-					<div class="box" id="js-2">2</div>
-					<div class="box" id="js-3">3</div>
+					<div class="box" id="1">1</div>
+					<div class="box" id="2">2</div>
+					<div class="box" id="3">3</div>
 				</div>
 				<div class="row">
-					<div class="box" id="js-4">4</div>
-					<div class="box" id="js-5">5</div>
-					<div class="box" id="js-6">6</div>
+					<div class="box" id="4">4</div>
+					<div class="box" id="5">5</div>
+					<div class="box" id="6">6</div>
 				</div>
 				<div class="row">
-					<div class="box" id="js-7">7</div>
-					<div class="box" id="js-8">8</div>
-					<div class="box" id="js-9">9</div>
+					<div class="box" id="7">7</div>
+					<div class="box" id="8">8</div>
+					<div class="box" id="9">9</div>
 				</div>
-				<button class="reset">Reset</button>
 			</main>
+			<button class="reset">Reset</button>
 		</div>
+		<section class="modal-container modal-welcome">
+			<div class="modal-inner">
+				<h2>Welcome to Tic Tac Toe!</h2>
+				<p>Click "play" to get started.</p>
+				<button id="js-play-btn">Play</button>
+			</div>
+		</section>
 	</body>
 </html>
