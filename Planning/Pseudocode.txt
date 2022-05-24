@@ -1,0 +1,9 @@
+-Show being game modal, which has game play instructions
+    -if User clicks play then init game
+        -hide intro modal/show main game screen
+        -start turn with player 1
+        - If user clicks a grid boc add X or and O to that box
+            -If box already has an X or O, show error, and make it unclickable.
+        -If user clicks reset (init game)
+
+    
