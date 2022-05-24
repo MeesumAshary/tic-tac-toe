@@ -1,16 +1,21 @@
 /* Base & Utility styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     box-sizing:border-box;
 }
 h1{
     font-size: 2em;
+    font-family: 'Indie Flower';
+    margin-left: 20px;
 }
 .container {
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row {
@@ -20,12 +25,25 @@ h1{
     
 }
 
+main {
+    align-self:center
+}
 .box{
     width: 150px;
     height: 150px;
     background-color: lightgray;
     border: 3px solid black;
 
+}
+
+.reset {
+    height: 50px;
+    align-self: center;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    
 }
 
 /* Modal Styles */
